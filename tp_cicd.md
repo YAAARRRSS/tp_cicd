@@ -66,3 +66,11 @@ git pull --rebase origin git_rep
 
 git commit -m "CI: Ajout du run des tests unitaires Python"
 git push
+
+
+###Etape5
+
+ 
+--Ajout de la fonction soustraction dans les fichiers : simple_math.py et test_simple_math:
+
+def soustraction  
