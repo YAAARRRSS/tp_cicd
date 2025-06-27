@@ -74,3 +74,14 @@ git push
 --Ajout de la fonction soustraction dans les fichiers : simple_math.py et test_simple_math:
 
 def soustraction  
+
+
+
+###Etape6
+
+--Ajout du lint ou plylint dans le workflow
+
+ - name: Install pylint
+        run: pip install pylint
+
+
