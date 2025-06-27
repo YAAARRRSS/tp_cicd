@@ -93,4 +93,8 @@ def soustraction
 RUN pip install pytest
 
 
+---Ajout du build dans le workflow:
+
+      - name: Build Docker image
+        run: docker build -t tp-cicd .
 
