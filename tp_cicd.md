@@ -42,3 +42,15 @@ nano .github/workflows/ci.yml
 https://docs.github.com/fr/actions/get-started/quickstart
 
 
+###Etape3
+
+
+---Python
+
+Creation de simple_math.py
+
+Puis de test_simple_math.py
+
+
+
+
