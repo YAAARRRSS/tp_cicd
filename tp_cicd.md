@@ -53,4 +53,16 @@ Puis de test_simple_math.py
 
 
 
+###Etape4
 
+
+--Modification du ci.yaml via github
+
+-Il faut donc ensuite recuperer les changement qui ne sont pas en local:
+
+git pull --rebase origin git_rep
+
+-Puis un git commit:
+
+git commit -m "CI: Ajout du run des tests unitaires Python"
+git push
