@@ -13,3 +13,9 @@ jobs:
           python-version: '3.x'
       - name: Run unit tests
         run: python3 test_simple_math.py
+      - name: Install pylint
+        run: pip install pylint
+      - name: Lint with pylint
+        run: pylint simple_math.py test_simple_math.py || true
+      - name: Run unit tests
+        run: python3 test_simple_math.py
