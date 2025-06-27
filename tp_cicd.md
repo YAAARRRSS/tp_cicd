@@ -85,3 +85,12 @@ def soustraction
         run: pip install pylint
 
 
+###Etape7
+
+---Creation d'un dockerfile qui execute les tests
+
+
+RUN pip install pytest
+
+
+
