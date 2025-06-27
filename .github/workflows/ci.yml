@@ -19,3 +19,5 @@ jobs:
         run: pylint simple_math.py test_simple_math.py || true
       - name: Run unit tests
         run: python3 test_simple_math.py
+      - name: Build Docker image
+        run: docker build -t tp-cicd .
